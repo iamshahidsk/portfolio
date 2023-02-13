@@ -2,64 +2,82 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Shahid Shaikh - Programmer Portfolio</title>
+    <title>Shahid Shaikh - Github Portfolio</title>
+    <style>
+      /* Add your own CSS styles here */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      header h1 {
+        margin: 0;
+      }
+      section {
+        padding: 20px;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      .card {
+        background-color: #f7f7f7;
+        border: 1px solid #ddd;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+        padding: 20px;
+        text-align: center;
+      }
+      .card h3 {
+        margin: 0;
+        margin-bottom: 10px;
+      }
+    </style>
   </head>
   <body>
     <header>
-      <h1>Shahid Shaikh</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+      <div class="container">
+        <h1>Shahid Shaikh</h1>
+        <p>Computer Engineer & Github Developer</p>
+      </div>
     </header>
-    <main>
-      <section id="about">
+    <section>
+      <div class="container">
         <h2>About Me</h2>
         <p>
-          Hi, I'm Shahid, a programmer with 5+ years of experience in developing 
-          web applications. I have a passion for creating user-friendly, 
-          innovative, and efficient solutions.
+          Hello! I'm Shahid, a computer engineer with a passion for software development. I have experience in multiple programming languages and technologies, and I'm always eager to learn and take on new challenges.
         </p>
         <p>
-          My expertise lies in HTML, CSS, JavaScript, and PHP. I also have experience 
-          in using various frameworks such as Angular, React, and Laravel.
+          On Github, you can find some of my personal projects and contributions to open-source projects. Feel free to take a look and leave a comment!
         </p>
-      </section>
-      <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-          <li>
-            <h3>Project 1</h3>
-            <p>Brief description of project 1 goes here.</p>
-          </li>
-          <li>
-            <h3>Project 2</h3>
-            <p>Brief description of project 2 goes here.</p>
-          </li>
-          <li>
-            <h3>Project 3</h3>
-            <p>Brief description of project 3 goes here.</p>
-          </li>
-        </ul>
-      </section>
-      <section id="contact">
-        <h2>Contact</h2>
-        <form action="submit-form.php" method="post">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name"><br><br>
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email"><br><br>
-          <label for="message">Message:</label>
-          <textarea id="message" name="message"></textarea><br><br>
-          <input type="submit" value="Submit">
-        </form>
-      </section>
-    </main>
-    <footer>
-      <p>&copy; Shahid Shaikh 2023</p>
-    </footer>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <h2>My Projects</h2>
+        <!-- Add your project cards here -->
+        <div class="card">
+          <h3>Project 1</h3>
+          <p>Brief description of project 1 goes here.</p>
+          <a href="#">View on Github</a>
+        </div>
+        <div class="card">
+          <h3>Project 2</h3>
+          <p>Brief description of project 2 goes here.</p>
+          <a href="#">View on Github</a>
+        </div>
+        <div class="card">
+          <h3>Project 3</h3>
+          <p>Brief description of project 3 goes here.</p>
+          <a href="#">View on Github</a>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
