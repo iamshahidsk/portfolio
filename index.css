@@ -10,6 +10,13 @@
 }
 
 @font-face {
+    font-family: 'MemphisRiver';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/cd.otf') format('woff');
+}
+
+@font-face {
     font-family: 'Jost';
     font-style: normal;
     font-weight: 400;
@@ -119,7 +126,12 @@ img {
 /* ----- Headlines and Paragraphs ----- */
 /* --------------------------------------- */
 
-h1,
+h1 {
+    font-family: 'MemphisRiver',sans-serif;
+    font-weight: 400;
+    line-height: var(--line-height-small);
+    color: var(--white);
+}
 h2,
 h3 {
     font-family: 'Jost', sans-serif;
@@ -512,7 +524,7 @@ body:not(.user-is-tabbing) a:focus {
 .client__logos {
     display: flex;
     justify-content: space-between;
-    filter: invert(100%) grayscale(100%) opacity(.8);
+    filter: invert(0%) grayscale(0%) opacity(.7);
 }
 
 .client__logo {
